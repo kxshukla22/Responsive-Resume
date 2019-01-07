@@ -1,0 +1,188 @@
+ <header class="container">
+    <!-- Main navigation -->
+    <nav class="primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+    </nav>
+    <link rel="stylesheet" type="text/css" href="assets/css/spreadsheet.css" media="all">
+    
+    <title>Responsive Resume</title>
+    
+  </header>
+  <!-- Main -->
+  <main itemscope itemtype="http://schema.org/Person" class="container">
+  <h1 class="page-title">Kajal Shukla</h1>
+  <section id="about">
+    <h2 class="visuallyhidden">Personal details</h2>
+    <div class="bio">
+    <img itemprop="image" src="assets/img/profile.png" alt="Your Name" class="headshot">
+    <p itemprop="description">I am a Junior, majoring in Computer Science with a minor in Mathematics. Currently, I am working with Chancellor's Leadership Corps as a Student Leader.</p>
+      </div>
+    <dl clas="details">
+        <dt>Name</dt>
+        <dd itemprop="name">
+          <span itemprop="givenName">Kajal</span> <span itemprop="familyName">Shukla</span>
+        </dd>
+        <dt>Date of birth</dt>
+        <dd itemprop="birthDate"><time datetime="1976-10-12">03/22/1997</time></dd>
+        <dt>Nationality</dt>
+        <dd itemprop="nationality">Indian</dd>
+        <dt>Location</dt>
+        <dd itemprop="homeLocation">Arkansas</dd>
+        <dt>Telephone</dt>
+        <dd>
+          <a itemprop="telephone" href="tel:555.555.5555">501.555.5555</a>
+        </dd>
+        <dt>Email</dt>
+        <dd>
+          <a itemprop="email" href="mailto:email@mail.com">kxshukla@ualr.edu</a>
+        </dd>
+        <dt>Address</dt>
+
+        <dd itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">13500 Chenal Pkwy</span>
+          <span itemprop="addressLocality">Little Rock</span>
+          <span itemprop="postalCode">72211</span>
+          <span itemprop="addressCountry">USA</span>
+        </dd>
+
+      </dl>
+      <ul class="related-links">
+       
+        <li><a itemprop="url" rel="me" href="https://www.linkedin.com/in/kajal-shukla-02830411a/"><img src="assets/img/linked.png" alt="Linkedin icon"></a></li>
+        <li><a itemprop="url" href="assets/resources/Resume.pdf" download><img src="assets/img/adobe.png" alt="Linkedin icon"></a></li>
+         <li><a itemprop="url" href="https://www.facebook.com" download><img src="assets/img/facebook.png" alt="Facebook icon"></a></li>
+      </ul>
+    </section>
+    
+    
+    <section id="skills">
+      <h2>Skills</h2>
+      
+       <p style="width:80%" data-value="80">JAVA</p>
+		<progress max="100" value="80" class="java">
+			<div class="progress-bar">
+				<span style="width: 80%">80%</span>
+			</div>
+		</progress>
+		
+		<p style="width:70%" data-value="70">C++</p>
+		<progress max="100" value="70" class="cplus">
+			<div class="progress-bar">
+				<span style="width: 70%">70%</span>
+			</div>
+		</progress>
+		
+		<p style="width:65%" data-value="65">HTML</p>
+		<progress max="100" value="65" class="word">
+			<div class="progress-bar">
+				<span style="width: 65%">65%</span>
+			</div>
+		</progress>
+		
+		<p style="width:50%" data-value="50">SQL</p>
+		<progress max="100" value="50" class="sql">
+			<div class="progress-bar">
+				<span style="width: 50%">50%</span>
+			</div>
+		</progress>
+      
+    </section>
+    
+    <section id="experience">
+      <h2>Experience</h2>
+      <!-- current job -->
+      <article class="job">
+        <h3 itemprop="jobTitle">Junior Peer Mentor</h3>
+        <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+         <a itemprop="url" href=http://ualr.edu/clc/about/student-leaders/><img src="assets/img/clc.jpg" alt="Company logo"></a> <span itemprop="name">Chancellor's Leadership Corps</span>
+          <span>May 2017 to Present</span>
+          <ul>
+            <li>Helped incoming freshmen in their transition from high school to college by guiding them and tutoring them in specific subjects</li>
+            <li>Organized and attended few events to welcome prospective students</li>
+            <li>Worked on WordPress to manage the website</li>
+          </ul>
+          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">University of Arkansas at Little Rock</span>
+          </span>
+          </span>
+        </div>
+      </article>
+      <!-- Previous Jobs - Notice Slightly Different Format-->
+      <article class="job" itemscope itemtype="http://schema.org/Event/Job">
+        <h3 itemprop="name">Student Ambassador</h3>
+          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+          <span itemprop="name">Engineering and Information Technology</span>
+          <a itemprop="url" href="http://ualr.edu/eit/ambassador-spotlights/"><img src="assets/img/eit.png" alt="Company logo"></a>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">University of Arkansas at Little Rock</span>
+          </span>
+          </span>
+          <span itemprop="startDate" content="2006-02-21T20:00">May 2016</span>
+          <span itemprop="endDate" content="2009-02-21T20:00">Apr 2017</span>
+       <ul>
+         <li>Tutored students in Computer Science and Math courses</li>
+         <li>Organized and attended few events to welcome prospective students</li>
+         <li>Provided EIT student Services office duty and staffed EIT student lab</li>
+       </ul>
+      </article>
+      <article class="job" itemscope itemtype="http://schema.org/Event/Job">
+        <h3 itemprop="name">Summer Intern</h3>
+          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+          <span itemprop="name">Welspun Tubular LLC</span>
+          <a itemprop="url" href="http://www.welspun.com/pipes.asp"><img src="assets/img/comp.png" alt="Company logo"></a>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">Little Rock, Arkansas</span>
+          </span>
+          </span>
+          <span itemprop="startDate" content="2004-01-21T20:00">May 2017</span>
+          <span itemprop="endDate" content="2006-02-21T20:00">Aug 2017</span>
+       <ul>
+         <li>Built connections and helped the vendors and stakeholders to set goals focused to complete the on-boarding requirements</li>
+         <li>Used SAP Ariba software to centralize connectivity on an open platform</li>
+         <li>Assisted with the technical issues experienced by the vendors through email and phone</li>
+         <li>Provided internal and external user support for software issues to the vendors</li>
+       </ul>
+      </article>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <article class="certificate" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+        <h3 itemprop="description"><abbr title="Bachelor of Science">BA </abbr> Computer Science with a minor in Mathematics</h3>
+          <span itemprop="name">University of Arkansas at Little Rock</span>
+          <span itemprop="location" itemscope>Little Rock, Arkansas</span>
+          <span>2015 - Present</span>
+          
+           <h3 itemprop="description"><abbr title="Diploma">Honor Graduate </abbr> High School</h3>
+          <span itemprop="name">Little Rock Central High School</span>
+          <span itemprop="location" itemscope>Little Rock, Arkansas</span>
+          <span>2012 - 2015</span>
+      </article>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div id="copyright">
+      &copy; 2018 Kajal Shukla
+    </div>
+  </footer>
+  
+  
+  
+  
+  
+  
+  <!----------jQuery------------->
+  <script type="text/javascript" src="breakpoints.js"></script>
+   <!---  JASON-LD  --->
+    <script type='application/ld+json'>
+      {
+	     "@context": "http://schema.org/",
+       "@type": "Person",
+	     "additionalName": "Kajal Shukla",
+	     "birthDate": "03/22/1997"
+      }
+</script>
